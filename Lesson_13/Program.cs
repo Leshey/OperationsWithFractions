@@ -37,22 +37,6 @@ public class Rational
     public int Denominator { get; set; }
     public int WholeNum { get; set; }
 
-    //public int Denominator  // неудачная попытка все сломать. Или удачная?
-    //{
-    //    get 
-    //    { 
-    //        return Denominator; 
-    //    }
-    //    set 
-    //    {
-    //        if (Denominator == 0) 
-    //        {
-    //            Console.WriteLine("На ноль делить нельзя! Ты все сломал!");
-    //            return;
-    //        }
-    //    }
-    //}
-
     public Rational()
     {
     
